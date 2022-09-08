@@ -22,8 +22,8 @@ public class Triangle {
     public static void main(String[] args) {
         try {
             // calling the method
-            validateTriangle(1, 2, 5);
-            ;
+            validateTriangle(2, 2, 5);
+
         } catch (IllegalTriangleException ex) {
             System.out.println("Caught the exception");
 

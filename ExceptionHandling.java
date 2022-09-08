@@ -8,7 +8,7 @@ class InvalidAgeException extends Exception {
 public class ExceptionHandling {
 
     static void validate(int age) throws InvalidAgeException {
-        if (age < 20 && age > 70) {
+        if (age < 20 || age > 70) {
 
             // throw an object of user defined exception
             throw new InvalidAgeException("Invalid");
